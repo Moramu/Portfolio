@@ -1,0 +1,96 @@
+<html>
+<head>
+	<title>
+	AO Portfolio	
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script/script.js" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand|Orbitron" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+
+		<header>
+		<a href="https://www.udacity.com/"><img class="header_logo" src="images/ul.png" alt="main"></a>
+				<div class="header_author">
+					<h1>Andrius Omelchenko</h1>
+					<h3>Full Stack Developer</h3>
+				</div>		
+		</header>
+		<hr>
+		<section>
+			<div class="image">
+				<img class="me_pic" src="images/me.png" alt="me">
+				<img class="brain_pic" src="images/brain.png" alt="brain"> 
+
+			</div>
+			<hr>
+			<h1>Featured Work</h1>
+			<hr>
+			<div class="featured_work">
+				
+					<div class="project">
+						<h2>AquaDesignPro Management</h2>
+						<div class="link">
+						<a href="https://github.com/Moramu/adpm">See Code</a> 
+						| 
+						<a href="http://solsoftus.com/adpm/">See Project</a>
+						</div> 
+						<img src="images/adpm.png">
+						<div calss="description">
+							 <p>Custom CMS system for AquaDesignPro (still at development stydy). Based on Laravel Framework.</p>
+							 <p><b>User:</b> sadmin@sadmin.com</p>
+							 <p><b>Password:</b> sadmin</p> 
+						</div>
+					</div>
+
+				<div class="project">
+						<h2>Pixel Art</h2>
+						<div class="link">
+						<a href="https://github.com/Moramu/pixel_art">See Code</a> 
+						| 
+						<a href="https://codepen.io/Moramu/full/ZrBMoa/">See Project</a>
+						</div> 
+						<img src="images/pixel_art.png">
+						<div calss="description">
+							 <p>Pixel Art maker. Created with HTML/CSS/JS. Udacity task project.</p>
+						</div>
+					</div>
+					<div class="project">
+						<h2>Portfolio (old version)</h2>
+						<div class="link">
+						<a href="https://github.com/Moramu/old_portfolio">See Code</a> 
+						| 
+						<a href="http://solsoftus.com/">See Project</a> 
+						</div>
+						<img src="images/old_portfolio.jpg">
+						<div calss="description">
+							 <p>Old version of portfolio. Created with HTML/CSS/JS.</p>
+						</div>	
+					</div>
+			</div>
+		</section>
+		<hr>
+
+	<footer>
+		<h3>Contact With Me</h3>
+		<div class="social">
+			<a href="https://github.com/Moramu"><img class="social_pic" src="images/github.png"></a>
+			<a href="https://www.linkedin.com/in/andrius-omelchenko-899a751b/"><img class="social_pic" src="images/linkedin.png"></a>
+			<a href="mailto:solsoftus@solsoftus.com"><img class="social_pic" src="images/email.png"></a>
+		</div>
+	</footer>
+	</div>
+</body>
+<script>
+$(window).scroll(function() {
+ if ($(this).scrollTop() > 300) {
+   $('.project').addClass('animated bounceOutLeft'); 
+ } 
+});
+</script>
+</html>
+
+
